@@ -1,0 +1,13 @@
+{
+  "name": "github-app-fork-test",
+  "type": "module",
+  "description": "Test repository to experiment with GitHub App authentication (server-to-server and user-to-server) to create forks and pull requests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "octokit": "^3.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
