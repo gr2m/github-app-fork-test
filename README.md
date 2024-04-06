@@ -13,12 +13,19 @@ Test repository to experiment with GitHub App authentication (server-to-server a
    - allow install on all accounts
    - Set the credentials in `.env`
 
-# Notes
+## Notes
+
+### Forking to user account
 
 - Creating a fork works if app is installed on user account but _not_ on upstream account
 - Creating a fork _fails_ if app is _not_ installed on user account but is installed on upstream account
 
 If the app is installed on both the source account and the target account (on all repositories), then the whole fork & pull request flow works.
+
+### Forking into same organization
+
+- A repository can be forked into the same organization by setting a different name
+- What I couldn't figure out is how to create a pull request from a fork within the same organization
 
 ## License
 
